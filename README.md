@@ -39,7 +39,7 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/child-adoption-system.git
+    git clone[ https://github.com/yourusername/child-adoption-system](https://github.com/RenukaKale29/Child_Adoption_Website).git
     ```
 2. **Navigate to the project directory**:
     ```sh
@@ -60,7 +60,7 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 
 ## Usage
 
-- Open your web browser and navigate to `http://localhost:8080`.
+- Open your web browser and navigate to `http://localhost:1003`.
 - Explore the various pages and functionalities of the Child Adoption System.
 
 ## Contributing
