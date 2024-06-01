@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: url('https://i.pinimg.com/564x/be/3d/ce/be3dce9b2d92450e681dfc9d10e5b13a.jpg');
+            min-height: 100vh;
+            margin-top: 100px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 180px;
+            margin-right: 10px;
+            padding-left: 10px;
+        }
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 10px;
+    padding-left: 6px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #a6c1ee);
+    height: 60px;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+    margin-right: 10px;
+    padding-left: 6px;
+}
+
+.navbar-text {
+    font-size: 2em;
+    font-family: "Bookman Old Style";
+    color: #c9408a;
+    padding-right: 40px;
+}
+
+.navbar-text:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+nav a {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: large;
+}
+
+.nav-links a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            text-align: center;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #da42f5;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .connect-container {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+       .container-topfo {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+        .container-fotop {
+            text-align: center;
+            justify-content: space-between;
+            background-color: rgb(2, 176, 156);
+            color: black;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        footer {
+    background-color: #f2f2f9;
+    color: black;
+    text-align: center;
+    padding: 10px 0; /* Adjust padding for spacing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scrolling-footer {
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 1em; /* Reduced font size for h3 */
+    margin: 0; /* Remove default margin */
+}
+
+footer p {
+    font-size: 0.8em; /* Reduced font size for p */
+    margin: 0; /* Remove default margin */
+}
+    </style>
+</head>
+
+<body>
+   <nav>
+        <div class="logo-container">
+            <span class="navbar-text"><strong><em>SafeAdopt</strong></em></span>
+        </div>
+        <div class="nav-links">
+            <a th:href="@{/}" class="button">Home</a>
+            <a th:href="@{/AboutUs}" class="button">What We Do</a>
+            <a th:href="@{/Organizations}" class="button">Organization</a>
+             <a th:href="@{/Event}" class="button">Events</a>
+               <a th:href="@{/Contact}" class="button">Get Connected</a>
+               <a th:href="@{/adoption}" class="button">Adopt Today</a>
+            <a th:href="@{/view}" class="button">Available for Adoption</a>
+        </div>
+    </nav>
+    <div class="container">
+        <form th:action="@{/save}" method="post">
+            <h2>Donate Food</h2>
+
+            <label for="adopName">Adopter Name</label>
+            <input type="text" id="adopName" name="adopName" required>
+
+            <label for="adopage">Child Age</label>
+            <input type="text" id="adopage" name="adopage" required>
+
+            <label for="gender">Child Gender</label>
+            <input type="text" id="gender" name="gender" required>
+
+            <label for="phoneNo">Phone Number</label>
+            <input type="text" id="phoneNo" name="phoneNo" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="3" required></textarea>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <button type="submit">Adop Now</button>
+
+            <p>Thank you for contributing to our mission!</p>
+        </form>
+    </div>
+<br>
+<br>
+<br>
+   <section>
+    <div class="container-topfo">
+        <div>
+            <h5><b>CONTACT US</b></h5>
+            <p>500 Amber Street Shana colony<br>Pune, (555) 123-4567</p>
+            <p>Email: info@ChildAdoption.com</p>
+        </div>
+        <div>
+            <h5><b>CONNECT WITH US</b></h5>
+            <a href="#" target="_blank"><img src="insta-logo.png" alt="Instagram" style="width:30px"></a><br>
+            <a href="#" target="_blank"><img src="facebook-logo.png" alt="Facebook" style="width:30px"></a><br>
+            <a href="#" target="_blank"><img src="mail-logo.png" alt="Mail" style="width:30px"></a>
+        </div>
+    </div>
+</section>
+   
+ <footer>
+  <footer>
+        <div class="scrolling-footer">
+            <h6>Registered Charity Number: 0123456789</h6>
+           <h6>&copy; 2024 SafeNestAdopt. All rights reserved.</h6>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
