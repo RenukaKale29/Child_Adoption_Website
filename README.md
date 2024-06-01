@@ -15,8 +15,8 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 ## Screenshots
 
 ### Home Page
-Home Page.jpeg
-
+[Home Page.jpeg
+](https://github.com/RenukaKale29/Child_Adoption_Website/blob/6e4a086906a2da63b470b007fecd3de1c899624e/Event%20Page.jpeg)
 ### About Us Page
 ![About Us Page](About Page.jpeg)
 
