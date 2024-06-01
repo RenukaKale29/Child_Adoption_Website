@@ -15,7 +15,7 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 ## Screenshots
 
 ### Home Page
-![Home Page]([AboutPage.jpeg))
+Home Page.jpeg
 
 ### About Us Page
 ![About Us Page](About Page.jpeg)
