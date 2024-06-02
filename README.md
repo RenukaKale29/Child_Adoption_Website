@@ -15,26 +15,24 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 ## Screenshots
 
 ### Home Page
-[Home Page.jpeg
-](https://github.com/RenukaKale29/Child_Adoption_Website/blob/6e4a086906a2da63b470b007fecd3de1c899624e/Event%20Page.jpeg)
+![Home Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/bc9bd6fd-c875-4b59-bbce-8213bbc3fbe3)
 ### About Us Page
-![About Us Page](About Page.jpeg)
+![About Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/32424a4e-4be5-47c1-9534-d0ce012af0c3)
 
 ### Contact Page
-![Contact Page](contact_page.png)
+![Contact Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/30b243d5-ba66-4ba5-a9cc-fdfc9736aa55)
+
 
 ### Organization Page
-![Organization Page](screenshots/organization_page.png)
+![Organization Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/d2ffa132-4d12-4496-8042-80e0068e17a5)
 
 ### Event Page
-![Event Page](screenshots/event_page.png)
+![Event Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/1cf35d6e-65bb-44b3-aa6a-e4261ab7b021)
 
 ### Adoption Registration Page
-![Adoption Registration Page](screenshots/adoption_registration_page.png)
-
+![Adopt Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/b452754a-d1e5-4168-90dd-e22a9cc9aa29)
 ### Details of Adoption Page
-![Details of Adoption Page](screenshots/details_of_adoption_page.png)
-
+![Adopt Details](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/3e456502-6833-488f-8ebf-abc021431d64)
 ## Installation
 
 1. **Clone the repository**:
