@@ -33,6 +33,11 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
 ![Adopt Page](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/b452754a-d1e5-4168-90dd-e22a9cc9aa29)
 ### Details of Adoption Page
 ![Adopt Details](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/3e456502-6833-488f-8ebf-abc021431d64)
+
+### Contact Us Table
+![Contact Table](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/338c7234-3a0b-4a4f-a60e-d5171260b2d2)
+### Adoption Details Table
+![Adoption Table](https://github.com/RenukaKale29/Child_Adoption_Website/assets/107395863/9d2cc23b-e86a-47ec-8d3e-39c2343c8197)
 ## Installation
 
 1. **Clone the repository**:
@@ -43,13 +48,16 @@ This project is a Child Adoption System developed using HTML, CSS, Thymeleaf, Ja
     ```sh
     cd child-adoption-system
     ```
-3. **Setup the MySQL Database**:
-    - Create a database named `child_adoption_system`.
-    - Update the `application.properties` file with your MySQL username and password.
-    ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/child_adoption_system
-    spring.datasource.username=your_username
-    spring.datasource.password=your_password
+3. **Setup the Application.Properties**:
+server.port=1003
+spring.datasource.name=Child_Adoption
+spring.datasource.url=jdbc:mysql://localhost:3306/Child_Adoption?ServerTimzone=UTC
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
     ```
 4. **Run the application**:
     ```sh
